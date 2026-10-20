@@ -64,6 +64,11 @@ CentOS 8 reached end of support on December 31, 2021.
 
 ## For Developers
 
+For compiled libraries, also read
+[compiled-library validation](docs/compiled-library-validation.md). Distribution
+package resolution does not replace compiler, ABI, OpenMP and runtime linkage
+checks on the final R source archive.
+
 We welcome contributions to this catalog! To report a bug or request a rule,
 please open an issue in this repository. To add or update a rule, fork this
 repository and submit a pull request.

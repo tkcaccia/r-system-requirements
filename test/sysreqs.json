@@ -1875,6 +1875,11 @@
     "SystemRequirements": "Optional 'LibTorch' backend; install via torch::install_torch()."
   },
   {
+    "Package": "faissR",
+    "Version": "0.1",
+    "SystemRequirements": "C++20, GNU make, patch, OpenMP, Fortran on Unix, complete LP64 BLAS and LAPACK including single-precision routines. Uses an installed FAISS library or the included CPU source."
+  },
+  {
     "Package": "fangs",
     "Version": "0.2.21",
     "SystemRequirements": "Cargo (Rust's package manager), rustc (>= 1.81.0)"

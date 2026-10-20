@@ -1,0 +1,18 @@
+{
+  "patterns": ["\\bcomplete\\s+LP64\\s+BLAS\\s+and\\s+LAPACK\\b"],
+  "dependencies": [
+    {
+      "packages": ["libblas-dev", "liblapack-dev"],
+      "constraints": [
+        { "os": "linux", "distribution": "debian" },
+        { "os": "linux", "distribution": "ubuntu" }
+      ]
+    },
+    {
+      "packages": ["blas-devel", "lapack-devel"],
+      "constraints": [
+        { "os": "linux", "distribution": "fedora" }
+      ]
+    }
+  ]
+}
